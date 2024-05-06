@@ -2,6 +2,8 @@
 
 [![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
+
 Use Google News API to find and extract the freshest public news worldwide for your project. Retrieve an extensive list of sources, titles, URLs, and dates from published articles all over the Google News portal.
 
 - Get real-time data for quality research and analysis
