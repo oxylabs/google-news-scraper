@@ -8,9 +8,11 @@
 
 A free tool for scraping articles from Google News. 
 
+
 ### Prerequisites
 
 To run this tool, you need to have Python 3.11 installed in your system.
+
 
 ### Installation
 
@@ -18,19 +20,21 @@ Open up a terminal window, navigate to this repository and run this command:
 
 `make install`
 
-### Usage
+### Getting the topic to scrape
 
 This tool is used to scrape Google News articles based on the topic they're listed in. 
 
-First of all, go to [Google News](https://news.google.com/) and select a topic, such as U.S., World, Sports, etc.
+1. Go to [Google News](https://news.google.com/) and select a topic, such as U.S., World, Sports, etc.
 
-Look at the URL in your browser and copy the string of characters that come after `/topics/`, that's your topic ID.
+2. Look at the URL in your browser and copy the string of characters that come after `/topics/`, that's your topic ID.
 
 For example, in this URL:
 
-`https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen` 
+```https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen```
 
 The topic ID would be `CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmxiaWdBUAE`.
+
+### Scraping 
 
 Scrape articles from your selected topic by running:
 `make scrape TOPIC_ID=<your_selected_topic_id>`
