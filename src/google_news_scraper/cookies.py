@@ -77,11 +77,8 @@ class GoogleNewsCookieRetriever:
         """
         Retrieves cookies that indicate a completed Google consent form.
 
-        Raises:
-            UnableToRetrieveConsentCookieError: Unable to retrieve cookies with selenium webdriver from Google.
-
         Returns:
-            str: The retrieved consent cookies.
+            dict | None: The retrieved consent cookies. Empty if cookie retrieval failed.
         """
         self._logger.info("Retrieving consent cookies..")
 
