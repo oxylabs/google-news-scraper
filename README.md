@@ -24,29 +24,39 @@ Open up a terminal window, navigate to this repository and run this command:
 
 This tool is used to scrape Google News articles based on the topic they're listed in. 
 
-1. Go to [Google News](https://news.google.com/) and select a topic, such as U.S., World, Sports, etc.
+First of all, open up Google News, and look through the topics listed in the top header of the webpage. 
 
-2. Look at the URL in your browser and copy the string of characters that come after `/topics/`, that's your topic ID.
+<img width="1388" alt="image" src="https://github.com/oxylabs/google-news-scraper/assets/44357929/c30be402-90cb-41ba-95a4-b2f63cdf5a7f">
 
-For example, in this URL:
+Click on a topic you wish to scrape. 
+In this example we'll be using the `Business` topic. 
 
-```https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen```
+Next, look at the URL in your browser and copy the string of characters that come after `/topics/`, that's your topic ID.
 
-The topic ID would be `CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmxiaWdBUAE`.
+<img width="831" alt="image" src="https://github.com/oxylabs/google-news-scraper/assets/44357929/cc3efc01-e719-4497-80f9-45710cb47977">
+
+In the URL shown in the screenshot, the topic ID would be `CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB`. 
+
+Save this value, you'll need it for scraping the articles.
 
 ### Scraping 
 
-Scrape articles from your selected topic by running:
+To scrape articles from your selected topic, run this command in your terminal:
 `make scrape TOPIC_ID=<your_selected_topic_id>`
 
-After running, you should see a file named `articles.csv`. 
+With the `Business` topic ID selected before, the command should look like this:
 
-The data should look something like this:
+`make scrape TOPIC_ID=CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB`
 
-| title          | url                               |
-|----------------|-----------------------------------|
-| First Article  | https://news.google.com/articles/ |
-| Second Article | https://news.google.com/articles/ |
+After running the command, you should see this in your terminal:
+
+<img width="1177" alt="image" src="https://github.com/oxylabs/google-news-scraper/assets/44357929/ad3e8211-043d-40fe-87e3-89fc9fea2381">
+
+When the tool has finished running, you should see a file named `articles.csv` in the directory you were running the tool.
+
+If you open the generated CSV file, the data should look something like this:
+
+<img width="1277" alt="image" src="https://github.com/oxylabs/google-news-scraper/assets/44357929/7127198e-1aa9-468d-a6e6-b989a68085f3">
 
 
 ### Notes
