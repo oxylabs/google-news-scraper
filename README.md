@@ -4,15 +4,11 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
-## Google News Scraper
-
-A free tool for scraping articles from Google News. 
-
+## Free Google News Scraper
 
 ### Prerequisites
 
 To run this tool, you need to have Python 3.11 installed in your system.
-
 
 ### Installation
 
