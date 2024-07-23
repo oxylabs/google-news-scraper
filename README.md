@@ -4,6 +4,16 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
+- [Free Google News Scraper](#free-google-news-scraper)
+    + [Prerequisites](#prerequisites)
+    + [Installation](#installation)
+    + [Getting the topic to scrape](#getting-the-topic-to-scrape)
+    + [Scraping](#scraping)
+    + [Notes](#notes)
+- [Oxylabs Google News API](#oxylabs-google-news-api)
+    + [Request sample](#request-sample)
+
+
 ## Free Google News Scraper
 
 ### Prerequisites
