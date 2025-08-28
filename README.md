@@ -76,7 +76,7 @@ You can get a [7-day trial for Oxylabs Google News API](https://oxylabs.io/produ
 After you claim your trial, using Google News API consists of three main steps:
 1. Create your API user via our [dashboard](https://dashboard.oxylabs.io)
 2. Send a request
-3. Retrieve the data in JSON or HTML
+3. Retrieve the data in JSON, HTML, or Markdown
 
 ### Request sample
 In the example below, we use Google News API and make a request to collect search result pages for the search term `adidas` on the `google.nl` domain: 
