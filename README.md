@@ -10,7 +10,7 @@
     + [Getting the topic to scrape](#getting-the-topic-to-scrape)
     + [Scraping](#scraping)
     + [Notes](#notes)
-- [Oxylabs Google News API](#oxylabs-google-news-api)
+- [Oxylabs Google News Scraper API](#oxylabs-google-news-api)
     + [Request sample](#request-sample)
 
 
@@ -69,17 +69,17 @@ If you open the generated CSV file, the data should look something like this:
 
 In case the code doesn't work or your project is of bigger scale, please refer to the second part of the tutorial. There, we showcase how to scrape public data with Oxylabs Scraper API.
 
-## Oxylabs Google News API
+## Oxylabs Google News Scraper API
 
 You can get a [7-day trial for Oxylabs Google News API](https://oxylabs.io/products/scraper-api/serp/google/news) and get **free 5K results**.  The tool will deliver a list of **sources, titles, URLs, and dates from published articles** all over the Google News portal. This API returns real-time data and gives access to localized results, all while avoiding blocks. 
 
-After you claim your trial, using Google News API consists of three main steps:
+After you claim your trial, using Google News Scraper API consists of three main steps:
 1. Create your API user via our [dashboard](https://dashboard.oxylabs.io)
 2. Send a request
 3. Retrieve the data in JSON, HTML, or Markdown
 
 ### Request sample
-In the example below, we use Google News API and make a request to collect search result pages for the search term `adidas` on the `google.nl` domain: 
+In the example below, we use Google News Scraper API and make a request to collect search result pages for the search term `adidas` on the `google.nl` domain: 
 
 ```
 import requests
