@@ -79,7 +79,7 @@ After you claim your trial, using Google News Scraper API consists of three main
 3. Retrieve the data in JSON, HTML, or Markdown
 
 ### Request sample
-In the example below, we use Google News Scraper API and make a request to collect search result pages for the search term `adidas` on the `google.nl` domain: 
+In the examples below, we make a request to obtain News search result pages for the search term `adidas`.
 
 ```
 import requests
@@ -88,11 +88,10 @@ from pprint import pprint
 # Structure payload.
 payload = {
     'source': 'google_search',
-    'domain': 'nl',`
     'query': 'adidas',
     'parse': True,
     'context': [
-        {'key': 'tbm', 'value': 'nws'},
+        {'key': 'udm', 'value': '12'},
     ],
 }
 
@@ -107,6 +106,6 @@ response = requests.post(
 pprint(response.json())
 ```
 
-To see **request samples in other languages** and **parameter values** along with their **descriptions**, please take a look at our extensive [Google News API documentation](https://developers.oxylabs.io/scraper-apis/serp-scraper-api/google/news-search). 
+To see **request samples in other languages** and **parameter values** along with their **descriptions**, please take a look at our extensive [Google News API documentation](https://developers.oxylabs.io/scraping-solutions/web-scraper-api/targets/google/search/news-search#python). 
 
 Read More Google Scraping Related Repositories: [Google Sheets for Basic Web Scraping](https://github.com/oxylabs/web-scraping-google-sheets), [Google Play Scraper](https://github.com/oxylabs/google-play-scraper), [How To Scrape Google Jobs](https://github.com/oxylabs/how-to-scrape-google-jobs), [How to Scrape Google Scholar](https://github.com/oxylabs/how-to-scrape-google-scholar), [How to Scrape Google Flights with Python](https://github.com/oxylabs/how-to-scrape-google-flights), [How To Scrape Google Images](https://github.com/oxylabs/how-to-scrape-google-images), [Scrape Google Search Results](https://github.com/oxylabs/scrape-google-python), [Scrape Google Trends](https://github.com/oxylabs/how-to-scrape-google-trends)
