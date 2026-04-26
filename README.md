@@ -71,7 +71,7 @@ In case the code doesn't work or your project is of bigger scale, please refer t
 
 ## Oxylabs Google News Scraper API
 
-You can get [Unlimited free trial time period for Oxylabs Google News API](https://oxylabs.io/products/scraper-api/serp/google/news) and get **free upto 2K results**.  The tool will deliver a list of **sources, titles, URLs, and dates from published articles** all over the Google News portal. This API returns real-time data and gives access to localized results, all while avoiding blocks. 
+You can take [a free trial for Google News API](https://oxylabs.io/products/scraper-api/serp/google/news) (part of the Oxylabs all-in-one Web Scraper API) and get **up to 2K free results**.  The tool will deliver a list of **sources, titles, URLs, and dates from published articles** all over the Google News portal. It utilizes a **fast-adapting infrastructure** to manage proxies, unblocking, and parsing automatically, so you can focus on data processing instead of scraper maintenance.
 
 After you claim your trial, using Google News Scraper API consists of three main steps:
 1. Create your API user via our [dashboard](https://dashboard.oxylabs.io)
