@@ -9,9 +9,9 @@ install:
 
 .PHONY: scrape
 scrape:
-	@if [ -z "$(TOPIC)" ]; then \
-		echo "Error: An ID of a topic to scrape is required. Use make scrape TOPIC=<topic_id>"; \
+	@if [ -z "$(TOPIC_ID)" ]; then \
+		echo "Error: An ID of a topic to scrape is required. Use make scrape TOPIC_ID=<topic_id>"; \
 		exit 1; \
 	else \
-		poetry run python -m google_news_scraper --topic=$(TOPIC); \
+		poetry run python -m google_news_scraper --topic=$(TOPIC_ID); \
 	fi
