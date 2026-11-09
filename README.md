@@ -1,6 +1,6 @@
 # Google News scraper
 
-[![Google_news_scraper](https://github.com/oxylabs/amazon-scraper/blob/main/web-api-logo.png)]([https://oxylabs.io/products/web-api/scrape?utm_source=github&utm_medium=referral&utm_content=web_api_waitinglist&groupid=877](https://oxylabs.io/products/web-api/scrape?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=google-news-scraper-github&transaction_id=102c8d36f7f0d0e5797b8f26152160))
+[![Google_news_scraper](https://github.com/oxylabs/google-news-scraper/blob/main/web-api-logo.png)]([https://oxylabs.io/products/web-api/scrape?utm_source=github&utm_medium=referral&utm_content=web_api_waitinglist&groupid=877](https://oxylabs.io/products/web-api/scrape?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=google-news-scraper-github&transaction_id=102c8d36f7f0d0e5797b8f26152160))
 
 <a href="https://oxylabs.io"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
 <a href="https://developers.oxylabs.io"><img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
