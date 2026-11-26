@@ -1,6 +1,6 @@
 # Google News scraper
 
-[![Google_news_scraper](https://github.com/oxylabs/google-news-scraper/blob/main/2-Google-news-Scraper%20new%20logo.png)](https://oxylabs.io/products/web-api/scrape?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=google-news-scraper-github&transaction_id=102c8d36f7f0d0e5797b8f26152160)
+[![Google_news_scraper](https://github.com/oxylabs/google-news-scraper/blob/main/2-Google-news-Scraper%20new%20logo.png)](https://oxylabs.io/products/web-api/scrape?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&utm_campaign=banner&groupid=877)
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
@@ -149,12 +149,12 @@ The free scraper in this repo only supports topic-based web scraping (see [Getti
 
 ## Learn more
 
-For a full walkthrough of both approaches in this repo — the free scraper and Web API — see the companion guide: [How to Scrape Google News: Step-by-Step Guide](https://oxylabs.io/blog/how-to-scrape-google-news). Full parameters and request samples for Web API are in the [dedicated scrapers documentation](https://developers.oxylabs.io/products/web-api/scrape/dedicated-scrapers).
+For a full walkthrough of both approaches in this repo — the free scraper and Web API — see the companion guide: [How to Scrape Google News: Step-by-Step Guide](https://oxylabs.io/blog/how-to-scrape-google-news?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&groupid=877). Full parameters and request samples for Web API are in the [dedicated scrapers documentation](https://developers.oxylabs.io/products/web-api/scrape/dedicated-scrapers).
 
 ## Featured in Technical Communities
 
 This project's companion tutorial has been shared across developer communities:
-- [How to Scrape Google News: Step-by-Step Guide](https://oxylabs.io/blog/how-to-scrape-google-news) — Oxylabs Blog
+- [How to Scrape Google News: Step-by-Step Guide](https://oxylabs.io/blog/how-to-scrape-google-news?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&groupid=877) — Oxylabs Blog
 - [How to Scrape Google News with Python: Step-by-Step Guide](https://dev.to/oxylabs-io/how-to-scrape-google-news-with-python-step-by-step-guide-2gkf) — DEV Community
 
 Read More Google Scraping Related Repositories: [Google Sheets for Basic Web Scraping](https://github.com/oxylabs/web-scraping-google-sheets), [Google Play Scraper](https://github.com/oxylabs/google-play-scraper), [How To Scrape Google Jobs](https://github.com/oxylabs/how-to-scrape-google-jobs), [How to Scrape Google Scholar](https://github.com/oxylabs/how-to-scrape-google-scholar), [How to Scrape Google Flights with Python](https://github.com/oxylabs/how-to-scrape-google-flights), [How To Scrape Google Images](https://github.com/oxylabs/how-to-scrape-google-images), [Scrape Google Search Results](https://github.com/oxylabs/scrape-google-python), [Scrape Google Trends](https://github.com/oxylabs/how-to-scrape-google-trends)
