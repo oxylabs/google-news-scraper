@@ -4,7 +4,7 @@
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
-  <a href="https://developers.oxylabs.io/products/web-api"><img src="https://img.shields.io/badge/%F0%9F%93%9A_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
+  <a href="https://developers.oxylabs.io/products/web-api?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/%F0%9F%93%9A_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%93%8A_Dashboard-2EA44F?style=for-the-badge" alt="Dashboard"></a>
   <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
   <a href="https://www.youtube.com/@oxylabs"><img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F_YouTube-FF0000?style=for-the-badge" alt="YouTube"></a>
@@ -82,7 +82,7 @@ In case the code doesn't work or your project is of bigger scale, please refer t
 
 ## Oxylabs Web API
 
-[Web API](https://developers.oxylabs.io/products/web-api) is Oxylabs REST API for searching the web and scraping pages in real time. The `/scrape` endpoint includes a dedicated source to scrape Google News data & pull **sources, titles, URLs, and dates from published articles** straight from the News tab of Google Search results, up to 2K free results on a trial. It handles JavaScript rendering, rotating proxies, and geo-targeting for you, returning clean, parsed data so you can focus on processing it instead of maintaining a scraper.
+[Web API](https://developers.oxylabs.io/products/web-api?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&groupid=877) is Oxylabs REST API for searching the web and scraping pages in real time. The `/scrape` endpoint includes a dedicated source to scrape Google News data & pull **sources, titles, URLs, and dates from published articles** straight from the News tab of Google Search results, up to 2K free results on a trial. It handles JavaScript rendering, rotating proxies, and geo-targeting for you, returning clean, parsed data so you can focus on processing it instead of maintaining a scraper.
 
 After you claim your trial, using Web API consists of three main steps:
 1. Create a Web API instance and generate an API key via our [dashboard](https://dashboard.oxylabs.io)
@@ -115,7 +115,7 @@ response = requests.post(
 pprint(response.json())
 ```
 
-To see **request samples in other languages** and **parameter values** along with their **descriptions**, please take a look at our extensive [Google News API documentation](https://developers.oxylabs.io/products/web-api/scrape/dedicated-scrapers).
+To see **request samples in other languages** and **parameter values** along with their **descriptions**, please take a look at our extensive [Google News API documentation](https://developers.oxylabs.io/products/web-api/scrape/dedicated-scrapers?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&groupid=877).
 
 ## Practical use cases
 
@@ -149,7 +149,7 @@ The free scraper in this repo only supports topic-based web scraping (see [Getti
 
 ## Learn more
 
-For a full walkthrough of both approaches in this repo — the free scraper and Web API — see the companion guide: [How to Scrape Google News: Step-by-Step Guide](https://oxylabs.io/blog/how-to-scrape-google-news?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&groupid=877). Full parameters and request samples for Web API are in the [dedicated scrapers documentation](https://developers.oxylabs.io/products/web-api/scrape/dedicated-scrapers).
+For a full walkthrough of both approaches in this repo — the free scraper and Web API — see the companion guide: [How to Scrape Google News: Step-by-Step Guide](https://oxylabs.io/blog/how-to-scrape-google-news?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&groupid=877). Full parameters and request samples for Web API are in the [dedicated scrapers documentation](https://developers.oxylabs.io/products/web-api/scrape/dedicated-scrapers?utm_source=github&utm_medium=referral&utm_content=google-news-scraper&groupid=877).
 
 ## Featured in Technical Communities
 
